@@ -1,0 +1,60 @@
+body{
+  background-color: rgb(158, 216, 243);
+}
+
+.initial-page{
+  margin-top:5%;
+  border: 3px grey solid;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  padding-top: 2%;
+  border-radius: 10px;
+  background: rgba(211, 211, 211, 0.7);
+  font-size: 125%;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+h1, h2{
+  text-align:center;
+}
+h3{
+  font-weight: 500;
+}
+
+.wright-answer{
+  border:1.5px green solid;
+  border-radius: 5px;
+  background: rgba(0,128,0, .1);
+  margin-top: 5px;
+  margin-bottom:5px;
+  padding:5px;
+}
+
+.wrong-answer{
+  border:1.5px red solid;
+  border-radius: 5px;
+  background: rgba(128, 0, 0, 0.1);
+  margin-top: 5px;
+  margin-bottom:5px;
+  padding:5px;
+}
+
+#check-answer-button{
+  margin-top:15px;
+}
+
+input{
+    cursor: pointer;
+
+}
+
+
+
+@media all and (min-width: 600px){
+
+  body {
+    margin-left:10%;
+    margin-right: 10%;
+  }
+
+}
